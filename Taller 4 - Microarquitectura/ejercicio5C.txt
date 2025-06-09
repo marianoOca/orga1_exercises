@@ -1,0 +1,7 @@
+      |00| SET R0 , 0x08
+      |02| SET R1 , 0x00
+      |04| SET R2 , 0x00
+while |06| INC R2
+      |08| ADD R1 , R2
+      |0a| CMP R2 , R0
+      |0c| JN while
